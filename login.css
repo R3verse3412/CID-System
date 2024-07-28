@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+#login_page {
+    /* background-image: url('Assets/Images/login_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.card {
+    border-radius: 0.875em;
+    max-width: 400px;
+    max-height: 471px;
+    margin: auto;
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 50px;
+}
+.alert {
+    margin: 0;
+    padding: 10px;
+}
+#username_container {
+    margin-top: 5%;
+}
+
+#password_container {
+    margin-top: 10%;
+}
+
+#login_text_container {
+    text-align: center;
+}
+
+.title_text {
+    font-size: 1.5em;
+    opacity: 0.65;
+}
+
+.title_text span {
+    color: #22C997;
+}
+
+.subtle_text {
+    font-size: 0.875em;
+    opacity: 0.5;
+}
+
+#login_button {
+    margin-top: 10%;
+    color: #fff;
+    background-color: #345AFD;
+}
+
+.input_underline {
+    width: 90%;
+    border: none;
+    outline: none; 
+}   
+
+.input_login {
+    position: relative;
+    border-bottom: 0.0625em solid black;
+}
+
+label, .input_underline {
+    font-size: 14px;
+}
+
+#toggle_password:hover {
+    cursor: pointer;
+}
+
+.logo {
+    width: 30px;
+    height: auto;
+    align-self: center;
+    margin-bottom: 20px;
+}
