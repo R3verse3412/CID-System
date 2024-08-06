@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+#frontdesk_page {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    flex-grow: 1;
+}
+
+#header {
+    height: 70px;
+    width: 100%;
+    background-color: #345AFD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+    margin: 15px;
+}
+
+#logout {
+    margin-right: 35px;
+    color: #fff;
+    font-size: 1em;
+}
+
+#logout:hover {
+    cursor: pointer;
+}
+
+#header_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.nav_current {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav_container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_container a {
+    position: relative;
+    text-decoration: none;
+}
+
+.nav_container a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust this value to control the distance of the underline from the text */
+    width: 0;
+    height: 2px; /* Adjust this value to control the thickness of the underline */
+    background-color: #fff; /* Adjust this value to set the color of the underline */
+    transition: width 0.3s ease; /* Adjust the duration and timing function of the transition as needed */
+}
+
+.nav_container a:hover::after {
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.edit_tech:hover, .opt_tech:hover {
+    cursor: pointer;
+}
+
+.select2-dropdown {
+    z-index: 99999;
+}
+
+
+#ongoing_tech{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+
+}
+
+#warranty_tech{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#rto_tech{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#cids_tech{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#release_tech{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#pending_tech{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#abandoned_tech{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#completed_tech{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#technician_table_container{
+    padding: 10px;
+}
+
+.text_tech{
+    text-align: center;
+    justify-content: center;
+}
+
+#tech_dashboard{
+    text-decoration: none; 
+    color: inherit; 
+}
+
+#tech_see_more{
+    text-align: center;
+}
+
+#tech_header{
+    text-align: center;
+}
+
+#icons_tech{
+    text-align: left;
+}
+
+#text_tech_ongoing{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#text_tech_warranty{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#text_tech_rto{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#text_tech_cids{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#text_tech_release{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#text_tech_pending{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#text_tech_abandoned{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#text_tech_completed{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#technician_table_container{
+    padding: 10px;
+}
